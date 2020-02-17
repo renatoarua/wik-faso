@@ -1,0 +1,35 @@
+<!-- <h5 class="text-muted">Login</h5> -->
+
+<form [formGroup]="loginForm" class="form mb-3" (submit)="login()">
+    <div class="form-group">
+        <input 
+            formControlName="cpf"
+            class="form-control" 
+            placeholder="CPF" >  
+
+        <!-- <bc-vmessage
+            *ngIf="loginForm.get('cpf').errors?.required && loginForm.get('cpf').touched"
+            text="Campo obrigatório!">
+        </bc-vmessage>  -->
+    </div>
+
+    <div class="form-group">
+        <input 
+            formControlName="senha"
+            type="password" 
+            class="form-control" 
+            placeholder="SENHA">  
+
+        <!-- <bc-vmessage
+            *ngIf="loginForm.get('senha').errors?.required && loginForm.get('senha').touched"
+            text="Campo obrigatório!">
+        </bc-vmessage> -->
+    </div>
+
+    <button 
+        [disabled]="loginForm.invalid"
+        type="submit" 
+        class="btn btn-primary btn-block mt-4">
+        entrar
+    </button>
+</form>
