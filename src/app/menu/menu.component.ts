@@ -1,6 +1,7 @@
 import { Component, OnDestroy, ChangeDetectorRef } from '@angular/core';
 import { Router } from '@angular/router';
 import { MediaMatcher } from '@angular/cdk/layout';
+import { UsuarioService } from '../core/usuario/usuario.service';
 
 @Component({
     templateUrl: 'menu.component.html',
@@ -25,6 +26,7 @@ export class MenuComponent implements OnDestroy {
 
     constructor(
         private router: Router,
+        private usuarioService: UsuarioService,
         changeDetectorRef: ChangeDetectorRef,
         media: MediaMatcher
     ) {
@@ -34,6 +36,7 @@ export class MenuComponent implements OnDestroy {
     }
 
     logout() {
+        this.usuarioService.logout();
         this.router.navigate(['']);
     }
 

@@ -5,6 +5,7 @@ import { CommonModule } from '@angular/common';
 
 import { HomeComponent } from './home.component';
 import { SigninComponent } from './signin/signin.component';
+import { VmessageModule } from '../shared/components/vmessage/vmessage.module';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { SigninComponent } from './signin/signin.component';
         RouterModule,
         ReactiveFormsModule,
         FormsModule,
-        CommonModule
+        CommonModule,
+        VmessageModule
     ],
     providers: [
         
