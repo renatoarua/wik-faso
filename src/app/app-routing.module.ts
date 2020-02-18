@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { SigninComponent } from './home/signin/signin.component';
 import { LoginGuard } from './core/token/login.guard';
 import { AuthGuard } from './core/token/auth.guard';
+import { FasoComponent } from './telas/faso/faso.component';
 
 
 const routes: Routes = [
@@ -44,6 +45,10 @@ const routes: Routes = [
       {
         path: 'motivacional',
         component: MotivacionalComponent,
+      },
+      {
+        path: 'faso',
+        component: FasoComponent,
       }
     ]
   }

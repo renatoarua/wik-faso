@@ -12,11 +12,16 @@ import { UsuarioService } from '../core/usuario/usuario.service';
             bottom: 0;
             left: 0;
             right: 0;
+            background-color: #eaeaea;
         }    
 
+        // mat-sidenav  {
+        //     background-color: #0d2048;
+        // }   
+        
         mat-sidenav  {
-            background-color: #0d2048;
-        }   
+            background-color: #023a55;
+        }  
       `]
 })
 export class MenuComponent implements OnDestroy {
