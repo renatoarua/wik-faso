@@ -10,6 +10,8 @@ import { TituloTelaModule } from './components/titulo-tela/titulo-tela.module';
 import { FasoComponent } from './faso/faso.component';
 import { CardTelaModule } from './components/card-tela/card-tela.module';
 import { DarkenOnHoverModule } from '../shared/directives/darken-on-hover/darken-on-hover.module';
+import { HistoriasComponent } from './historias/historias.component';
+import { ApresentacaoHistoriaComponent } from './historias/apresentaçãoHistoria/apresentacaoHistoria.component';
 
 
 
@@ -18,7 +20,9 @@ import { DarkenOnHoverModule } from '../shared/directives/darken-on-hover/darken
         DesenvolvimentoComponent,
         InicioComponent,
         MotivacionalComponent,
-        FasoComponent
+        FasoComponent,
+        HistoriasComponent,
+        ApresentacaoHistoriaComponent,
     ],
     imports: [
         CommonModule,

@@ -10,6 +10,8 @@ import { SigninComponent } from './home/signin/signin.component';
 import { LoginGuard } from './core/token/login.guard';
 import { AuthGuard } from './core/token/auth.guard';
 import { FasoComponent } from './telas/faso/faso.component';
+import { HistoriasComponent } from './telas/historias/historias.component';
+import { ApresentacaoHistoriaComponent } from './telas/historias/apresentaçãoHistoria/apresentacaoHistoria.component';
 
 
 const routes: Routes = [
@@ -49,7 +51,22 @@ const routes: Routes = [
       {
         path: 'faso',
         component: FasoComponent,
+      },
+      {
+        path: 'historias',
+        component: HistoriasComponent,
+        // children:[
+        //   {
+        //     path:'apresentacaoHistoria',
+        //     component: ApresentacaoHistoriaComponent
+        //   }
+        // ]
+      },
+      {
+        path: 'historias/:parametro',
+        component: ApresentacaoHistoriaComponent
       }
+
     ]
   }
 ];

@@ -1,0 +1,31 @@
+<wf-container-tela>
+    <wf-titulo-tela titulo="Histórias"></wf-titulo-tela>
+
+    <div class="row" >        
+        <wf-card-tela *ngFor="let hist of listaHistoria" class="col-lg-6 col-sm-6 col-xs-12" style="max-width: 330px !important; font-size: medium !important;"
+            srcImg="{{hist.srcImg}}"
+            titulo="{{hist.titulo}}"
+            link="/historias/{{hist.idHistoria}}">
+        </wf-card-tela>
+
+        <!-- <wf-card-tela class="col-lg-6 col-sm-6 col-xs-12" style="max-width: 330px !important;"
+            srcImg="../assets/img/cards/motivacional.png"
+            titulo="historia 2">
+        </wf-card-tela>
+
+        <wf-card-tela class="col-lg-6 col-sm-6 col-xs-12" style="max-width: 330px !important;"
+            srcImg="../assets/img/cards/motivacional.png"
+            titulo="historia 3">
+        </wf-card-tela>
+
+        <wf-card-tela class="col-lg-6 col-sm-6 col-xs-12" style="max-width: 330px !important;"
+            srcImg="../assets/img/cards/motivacional.png"
+            titulo="historia 4">
+        </wf-card-tela>
+
+        <wf-card-tela class="col-lg-6 col-sm-6 col-xs-12" style="max-width: 330px !important;"
+            srcImg="../assets/img/cards/motivacional.png"
+            titulo="historia 5">
+        </wf-card-tela> -->
+    </div>
+</wf-container-tela>
