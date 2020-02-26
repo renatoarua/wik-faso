@@ -19,6 +19,10 @@ export class ApresentacaoHistoriaComponent implements OnInit {
         const par = this.activatedRoute.snapshot.paramMap.get('parametro');
         this.listaHistoria = this.listaHistoria.filter(c => c.idHistoria == parseInt(par));
         debugger
+        if (this.listaHistoria.length==0) {
+            this.router.navigate(['historias'])
+            
+        }
         this.apresentacaoHistoria = this.listaHistoria[0]
 
 

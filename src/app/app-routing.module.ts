@@ -12,6 +12,10 @@ import { AuthGuard } from './core/token/auth.guard';
 import { FasoComponent } from './telas/faso/faso.component';
 import { HistoriasComponent } from './telas/historias/historias.component';
 import { ApresentacaoHistoriaComponent } from './telas/historias/apresentaçãoHistoria/apresentacaoHistoria.component';
+import { FrasesComponent } from './telas/frases/frases.component';
+import { PilaresComponent } from './telas/pilares/pilares.component';
+import { componentFactoryName } from '@angular/compiler';
+import { MissaoComponent } from './telas/missao/missao.component';
 
 
 const routes: Routes = [
@@ -65,8 +69,19 @@ const routes: Routes = [
       {
         path: 'historias/:parametro',
         component: ApresentacaoHistoriaComponent
+      },
+      {
+        path: 'frases',
+        component: FrasesComponent
+      },
+      {
+        path: 'pilares',
+        component: PilaresComponent
+      },
+      {
+        path:'missao',
+        component: MissaoComponent
       }
-
     ]
   }
 ];

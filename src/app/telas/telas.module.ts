@@ -12,6 +12,9 @@ import { CardTelaModule } from './components/card-tela/card-tela.module';
 import { DarkenOnHoverModule } from '../shared/directives/darken-on-hover/darken-on-hover.module';
 import { HistoriasComponent } from './historias/historias.component';
 import { ApresentacaoHistoriaComponent } from './historias/apresentaçãoHistoria/apresentacaoHistoria.component';
+import { FrasesComponent } from './frases/frases.component';
+import { PilaresComponent } from './pilares/pilares.component';
+import { MissaoComponent } from './missao/missao.component';
 
 
 
@@ -23,6 +26,9 @@ import { ApresentacaoHistoriaComponent } from './historias/apresentaçãoHistori
         FasoComponent,
         HistoriasComponent,
         ApresentacaoHistoriaComponent,
+        FrasesComponent,
+        PilaresComponent,
+        MissaoComponent
     ],
     imports: [
         CommonModule,
