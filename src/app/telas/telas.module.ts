@@ -15,6 +15,7 @@ import { ApresentacaoHistoriaComponent } from './historias/apresentaçãoHistori
 import { FrasesComponent } from './frases/frases.component';
 import { PilaresComponent } from './pilares/pilares.component';
 import { MissaoComponent } from './missao/missao.component';
+import { BotaoVoltarModule } from './components/botao-voltar/botao-voltar.module';
 
 
 
@@ -35,7 +36,8 @@ import { MissaoComponent } from './missao/missao.component';
         ContainerTelaModule,
         TituloTelaModule,
         CardTelaModule,
-        DarkenOnHoverModule
+        DarkenOnHoverModule,
+        BotaoVoltarModule
     ],
     providers: [ 
         

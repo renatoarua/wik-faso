@@ -4,16 +4,17 @@
 
     <div *ngFor="let hist of listaHistoria" style="text-align: center; margin-top: 10px;">
         <img [src]="hist.srcImg" style="max-width: 500px; margin-bottom: 10px;">
-        <p>{{hist.texto}}</p>
+        <p style="white-space: pre-line; text-align: left;">{{hist.texto}}</p>
 
     </div>
-    <div class="col-md-12 col-sm-12 col-xs-12 text-right" style="margin-bottom: 20px;">
-        <button mat-flat-button class="btn-primary" (click)="BotaoVoltar()"
+    <!-- <div class="col-md-12 col-sm-12 col-xs-12 text-right" style="margin-bottom: 20px;">
+        <button mat-flat-button class="btn-primary" (click)="BotaoVoltar()" 
             style="margin-top: 5px; width: 100px; height: 50px; border-radius: 30px; background-color: #023a55; border-color: #023a55;">
             Voltar
         </button>
 
-    </div>
+    </div> -->
+    <wf-botao-voltar></wf-botao-voltar>
 
 
 </wf-container-tela>

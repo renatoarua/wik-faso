@@ -34,7 +34,7 @@ export class ApresentacaoHistoriaComponent implements OnInit {
     }
 
     BotaoVoltar() {
-this.router.navigate(['/historias'])
+this.router.navigate([history.go(-1)])
     }
 
 

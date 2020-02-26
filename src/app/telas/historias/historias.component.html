@@ -8,22 +8,30 @@
         </wf-card-tela> -->
     <div class="row">
 
-<div *ngFor="let hist of listaHistoria" style="max-width: 330px !important; margin-left: 15px;margin-right: 15px;">
+        <div *ngFor="let hist of listaHistoria"
+            style="max-width: 330px !important; margin-left: 15px;margin-right: 15px;">
 
-        <div  class="p-3">
-            <div apDarkenOnHover class="row rounded"
-                style="background:#fff;box-shadow: 4px 4px 5px 1px #6c757d96, 0 2px 10px 0 rgba(0, 0, 0, 0.26); background: #023a55; cursor: pointer;"
-                (click)="clickCard(hist.idHistoria)">
-                <div class="col-6 p-3">
-                    <img style="max-height: 100px;" class="img-fluid" [src]="hist.srcImg">
-                </div>
+            <!-- <div apDarkenOnHover class=" card-body mb-3  img-fluid "
+                style="border: none !important; width: 330px; height: 200px; cursor: pointer; background-size: cover; box-shadow: 4px 4px 5px 1px #6c757d96, 0 2px 10px 0 rgba(0, 0, 0, 0.26);"
+                [ngStyle]="{'background-image':'url('+hist.srcImg+')'}" (click)="clickCard(hist.idHistoria)">
 
-                <div class="col-6 d-flex text-center">
-                    <h3 class="wf-align-vertical ml-auto" style="color: #eaeaea;">{{hist.titulo}}</h3>
-                </div>
+                <h5 class=" bg-transparent text-right"
+                    style="font-family: fantasy; -webkit-text-stroke-width: 0.5px;-webkit-text-stroke-color: #FFF;">
+                    {{hist.titulo}}
+                </h5>
+            </div> -->
+
+            <div apDarkenOnHover class="d-flex align-items-end flex-column mb-3  img-fluid "
+                style=" border: none !important; width: 330px; height: 200px; cursor: pointer; background-size: cover; box-shadow: 4px 4px 5px 1px #6c757d96, 0 2px 10px 0 rgba(0, 0, 0, 0.26);"
+                [ngStyle]="{'background-image':'url('+hist.srcImg+')'}" (click)="clickCard(hist.idHistoria)">
+                <div class="text-right mt-auto p-2"
+                    style="font-family: fantasy;color: #d2d0d0;background-color: #023a55ba;font-size: 20px;width: 100%;">
+                    {{hist.titulo}}</div>
             </div>
         </div>
 
     </div>
-    </div>
+
+    <wf-botao-voltar caminho="motivacional"></wf-botao-voltar>
+
 </wf-container-tela>
