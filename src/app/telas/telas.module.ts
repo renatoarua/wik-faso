@@ -10,18 +10,15 @@ import { TituloTelaModule } from './components/titulo-tela/titulo-tela.module';
 import { FasoComponent } from './faso/faso.component';
 import { CardTelaModule } from './components/card-tela/card-tela.module';
 import { DarkenOnHoverModule } from '../shared/directives/darken-on-hover/darken-on-hover.module';
-<<<<<<< HEAD
 import { TutoriaisComponent } from './desenvolvimento/tutoriais/tutoriais.component';
 import { TutorialDescricaoComponent, SafePipe } from './desenvolvimento/tutoriais/tutorial-descricao/tutorial-descricao.component';
 import { RouterModule } from '@angular/router';
-=======
 import { HistoriasComponent } from './historias/historias.component';
 import { ApresentacaoHistoriaComponent } from './historias/apresentaçãoHistoria/apresentacaoHistoria.component';
 import { FrasesComponent } from './frases/frases.component';
 import { PilaresComponent } from './pilares/pilares.component';
 import { MissaoComponent } from './missao/missao.component';
 import { BotaoVoltarModule } from './components/botao-voltar/botao-voltar.module';
->>>>>>> b831813f2b0c5d84ca7a46b41017ea2f5bfe9253
 
 
 
@@ -31,17 +28,14 @@ import { BotaoVoltarModule } from './components/botao-voltar/botao-voltar.module
         InicioComponent,
         MotivacionalComponent,
         FasoComponent,
-<<<<<<< HEAD
         TutoriaisComponent,
         TutorialDescricaoComponent,
-        SafePipe
-=======
+        SafePipe,
         HistoriasComponent,
         ApresentacaoHistoriaComponent,
         FrasesComponent,
         PilaresComponent,
         MissaoComponent
->>>>>>> b831813f2b0c5d84ca7a46b41017ea2f5bfe9253
     ],
     imports: [
         CommonModule,
@@ -49,11 +43,8 @@ import { BotaoVoltarModule } from './components/botao-voltar/botao-voltar.module
         TituloTelaModule,
         CardTelaModule,
         DarkenOnHoverModule,
-<<<<<<< HEAD
-        RouterModule
-=======
+        RouterModule,
         BotaoVoltarModule
->>>>>>> b831813f2b0c5d84ca7a46b41017ea2f5bfe9253
     ],
     providers: [ 
         
