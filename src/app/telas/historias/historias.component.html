@@ -1,0 +1,37 @@
+<wf-container-tela>
+    <wf-titulo-tela titulo="Histórias"></wf-titulo-tela>
+
+    <!-- <wf-card-tela *ngFor="let hist of listaHistoria" class="col-lg-6 col-sm-6 col-xs-12" style="max-width: 330px !important; font-size: medium !important;"
+            srcImg="{{hist.srcImg}}"
+            titulo="{{hist.titulo}}"
+            link="/historias/{{hist.idHistoria}}">
+        </wf-card-tela> -->
+    <div class="row">
+
+        <div *ngFor="let hist of listaHistoria"
+            style="max-width: 330px !important; margin-left: 15px;margin-right: 15px;">
+
+            <!-- <div apDarkenOnHover class=" card-body mb-3  img-fluid "
+                style="border: none !important; width: 330px; height: 200px; cursor: pointer; background-size: cover; box-shadow: 4px 4px 5px 1px #6c757d96, 0 2px 10px 0 rgba(0, 0, 0, 0.26);"
+                [ngStyle]="{'background-image':'url('+hist.srcImg+')'}" (click)="clickCard(hist.idHistoria)">
+
+                <h5 class=" bg-transparent text-right"
+                    style="font-family: fantasy; -webkit-text-stroke-width: 0.5px;-webkit-text-stroke-color: #FFF;">
+                    {{hist.titulo}}
+                </h5>
+            </div> -->
+
+            <div apDarkenOnHover class="d-flex align-items-end flex-column mb-3  img-fluid "
+                style=" border: none !important; width: 330px; height: 200px; cursor: pointer; background-size: cover; box-shadow: 4px 4px 5px 1px #6c757d96, 0 2px 10px 0 rgba(0, 0, 0, 0.26);"
+                [ngStyle]="{'background-image':'url('+hist.srcImg+')'}" (click)="clickCard(hist.idHistoria)">
+                <div class="text-right mt-auto p-2"
+                    style="font-family: fantasy;color: #d2d0d0;background-color: #023a55ba;font-size: 20px;width: 100%;">
+                    {{hist.titulo}}</div>
+            </div>
+        </div>
+
+    </div>
+
+    <wf-botao-voltar caminho="motivacional"></wf-botao-voltar>
+
+</wf-container-tela>

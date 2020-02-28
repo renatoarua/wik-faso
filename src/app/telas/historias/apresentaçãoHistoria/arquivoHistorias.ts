@@ -1,0 +1,89 @@
+
+export const HISTORIAS = [
+    {
+        "idHistoria": 1,
+        "titulo": "Tudo passa",
+        "texto": `Havia, certa vez, um sábio que já se encontrava no fim de sua vida.
+
+        Certo dia, pressentindo a chegada da morte, chamou seu único filho, que o sucederia no trono, tirou do dedo um anel a ele dizendo:
+        
+        -Meu filho, quando fores rei, leva sempre contigo este anel. Nele há uma inscrição. Quando estiveres vivendo situações extremas de glória ou de dor, tira-o e lê o que há nele.
+        
+        E o rei morreu, e seu filho passou a reinar em seu lugar, sempre usando o anel que o pai lhe deixara. Passado algum tempo, surgiram conflitos com um reino vizinho, que acabaram culminando numa terrível guerra.
+        O jovem rei, a frente do seu exército, partiu para enfrentar o inimigo. No auge da batalha, seus companheiros lutavam bravamente; mortos, feridos, tristeza, dor, o rei lembra-se do anel.
+        
+        “Nas situações de dor…” tira-o e lê a inscrição:
+        -Isto Também Passará.
+        
+        E ele continua a luta. Perde batalhas, vence outras tantas, mas ao final sai vitorioso.
+        Retorna, então, ao seu reino e, coberto de glória, entra em triunfo na cidade. O povo o aclama. Neste momento ele se lembra do seu velho e sábio pai.
+        “Nas situações de extrema glória…” Tira o anel e lê:
+        -Isto Também Passará.
+        
+        É importante termos consciência que nas situações difíceis há sempre uma saída, um caminho para que ela se transforme em oportunidade. Quando se diz que tal situação passará, não é apenas para consolar, mas porque é realizado. Nas situações de alegria e sucesso, ocorre o mesmo. É preciso, então, que sejamos sempre atentos, pois isso também passará.`,
+        "srcImg": "https://images-na.ssl-images-amazon.com/images/I/71e084FGiHL._SL1500_.jpg"
+    },
+    {
+        "idHistoria": 2,
+        "titulo":"Empurre sua Vaquinha" ,
+        "texto": `Um sábio passava na floresta com seu discípulo. Avistou uma casinha pobre, aos pedaços. Nela moravam um casal com três filhos, todos mal vestidos, sujos, magros e aparentando subnutrição.
+
+        O sábio pergunta ao pai de família: “Como vocês sobrevivem? Não vejo horta alguma, não vejo plantação alguma, não vejo animais”. O pai respondeu: “Nós temos uma vaquinha que nos dá alguns litros de leite por dia. Uma parte do leite nós tomamos, a outra trocamos na cidade vizinha por alimentos e roupas e assim vamos sobrevivendo…”.
+        
+        O sábio agradeceu e saiu novamente pelo caminho. Logo em seguida o sábio avistou uma vaquinha e ordenou a seu discípulo: “puxe aquela vaquinha até o precipício e empurre-a precipício abaixo”. Mesmo sem compreender a ordem, o discípulo a cumpriu – empurrou a vaquinha no precipício. Fico pensando na maldade do sábio em mandar matar a única fonte de subsistência daquela família. Aquilo não saiu da cabeça do discípulo por muitos anos.
+        
+        Alguns anos depois, passando pela mesma região, o discípulo lembrou-se daquela família e do episódio da vaquinha. Resolveu voltar àquela casinha e, teve uma grande surpresa!
+        
+        No lugar da pobre casinha, havia uma bela casa, um pomar ao redor, várias cabeças de gado, um trator novo na porta. Avistou o mesmo pai agora bem vestido, limpo, saudável. Logo apareceram a mulher e os três filhos, todos bonitos e aparentando saúde e felicidade. Quando o discípulo perguntou a razão de tantas mudanças nesses últimos anos o pai da família respondeu: “nós tínhamos uma vaquinha que caiu no precipício e morreu. Sem a vaquinha nós tivemos de nos virar e fazer outras coisas que nunca tínhamos feito. Começamos a plantar, criar animais e usar nossas cabeças para sobreviver, daí vimos que éramos capazes de fazer coisas que nunca havíamos imaginado, conseguir coisas que achávamos impossíveis, porque nunca havíamos tentado fazer. Sem a vaquinha, nós fomos à luta, só tínhamos essa alternativa – lutar para vencer!”.
+        
+        Pense nessa história. Todos nós temos aquela “vaquinha” que nos dá alguma coisa básica para sobreviver e conviver com a “rotina”. Vamos descobrir “quem” ou “o que” é a nossa vaquinha e quem sabe aproveitar este momento de “crise” para “empurrá-la” morro abaixo.
+        
+        `,
+        "srcImg": "https://cdnstatic8.com/inglesnoteclado.com.br/wp-content/uploads/2015/11/como-dizer-vacas-magras-em-Ingl%C3%AAs.jpg"
+    },
+    {
+        "idHistoria": 3,
+        "titulo":"Ponha um tubarão no seu tanque" ,
+        "texto": `Os japoneses sempre adoraram peixe fresco. Porém as águas perto do Japão não produzem muitos peixes há décadas. Assim, para alimentar a sua população, os japoneses aumentaram o tamanho dos navios pesqueiros e começaram a pescar mais longe do que nunca. Quanto mais longe os pescadores iam, mais tempo levava para o peixe chegar. Se a viagem de volta levasse mais do que alguns dias, o peixe já não era mais fresco.
+
+        E os japoneses não gostaram do gosto destes peixes. Para resolver este problema, as empresas de pesca instalaram congeladores em seus barcos. Eles pescavam e congelavam os peixes em alto-mar. Os congeladores permitiram que os pesqueiros fossem mais longe e ficassem em alto mar por muito mais tempo. Entretanto, os japoneses conseguiram notar a diferença entre peixe fresco e peixe congelado, e é claro, eles não gostaram do peixe congelado. Entretanto, o peixe congelado tornou os preços mais baixos. Então as empresas de pesca instalaram tanques de peixe nos navios pesqueiros. Eles podiam pescar e enfiar esses peixes nos tanques, “como sardinhas”. Depois de certo tempo, pela falta de espaço, eles paravam de se debater e não se moviam mais. Eles chegavam cansados e abatidos, porém, vivos.
+        
+        Infelizmente, os japoneses ainda podiam notar a diferença do gosto. Por não se mexerem por dias, os peixes perdiam o gosto de frescor. Os japoneses preferiam o gosto de peixe fresco e não o gosto de peixe apático. Então, como os japoneses resolveram este problema? Como eles conseguiram levar ao Japão peixes com gosto de puro frescor?
+        
+        Se você estivesse dando consultoria para a empresa de pesca, o que você recomendaria?
+        Quando as pessoas atingem seus objetivos tais como quando encontram um namorado maravilhoso, começam com sucesso numa empresa nova, pagam todas suas dívidas ou o que quer que seja, elas podem perder as suas paixões .
+        
+        Elas podem começar a pensar que não precisam mais trabalhar tanto, então relaxam. Elas passam pelo mesmo problema que os ganhadores de loteria que gastam todo seu dinheiro, o mesmo problema de herdeiros que nunca crescem e de donas de casa, entediadas, que ficam dependentes de remédios de tarja preta.
+        
+        Para esses problemas, inclusive no caso dos peixes dos japoneses, a solução é bem simples. L. Ron Hubbard observou no começo dos anos 50: “O homem progride, estranhamente, somente perante a um ambiente desafiador”.
+        
+        Quanto mais inteligente, persistente e competitivo você é, mais você gosta de um bom problema.
+        Se seus desafios estão de um tamanho correto e você consegue, passo a passo, conquistar esses desafios, você fica muito feliz. Você pensa em seus desafios e se sente com mais energia. Você fica excitado em tentar novas soluções. Você se diverte. Você fica vivo!
+        
+        Para conservar o gosto de peixe fresco, as empresas de pesca japonesas ainda colocam os peixes dentro de tanques. Mas, eles também adicionam um pequeno tubarão em cada tanque. O tubarão come alguns peixes, mas a maioria dos peixes chega “muito vivo”. Os peixes são desafiados.
+        
+        Portanto, ao invés de evitar desafios, pule dentro deles. Massacre-os. Curta o jogo. Se seus desafios são muito grandes e numerosos, não desista. Se reorganize! Busque mais determinação, mais conhecimento e mais ajuda. Se você alcançou seus objetivos, coloque objetivos maiores. Uma vez que suas necessidades pessoais ou familiares forem atingidas, vá de encontro aos objetivos do seu grupo, da sociedade e até mesmo da humanidade. Crie seu sucesso pessoal e não se acomode nele.
+        Você tem recursos, habilidades e destrezas para fazer diferença.
+        
+        Então:
+        “Ponha um tubarão no seu tanque e veja quão longe você realmente pode chegar”.`,
+        "srcImg": "https://2.bp.blogspot.com/--POpCJ1Gl4w/Tc_GyI2Mg5I/AAAAAAAASOU/8DRmPkIX0xI/s1600/TUBAR%25C3%2583O-TIGRE%2B%2528Galeocerdo%2Bcuvier%2529.jpg"
+    },
+    {
+        "idHistoria": 4,
+        "titulo":"Assembleia na Carpintaria" ,
+        "texto": `Contam que na carpintaria houve uma estranha assembléia. Foi uma reunião de ferramentas para acertar suas diferenças. Um martelo exerceu a presidência, mas os participantes lhe notificaram que teria que renunciar.
+
+        A Causa? Fazia demasiado barulho; e além do mais, passava o tempo todo golpeando. O martelo aceitou a sua culpa, mas pediu que também fosse expulso o parafuso, dizendo que ele dava muitas voltas para conseguir algo. Diante do ataque, o parafuso concordou, mas por sua vez, pediu a expulsão da lixa. Dizia que ela era muito áspera no tratamento com os demais, entrando sempre em atritos.
+        
+        A lixa acatou, com a condição de que se expulsasse o metro que sempre media os outros segundo a sua medida, como se fora o único perfeito. Nesse momento entrou o carpinteiro, juntou o material e iniciou o seu trabalho. Utilizou o martelo, a lixa, o metro e o parafuso. Finalmente, a rústica madeira se converteu num fino móvel. Quando a carpintaria ficou novamente só, a assembléia reativou e disse: “Senhores, ficou demonstrado que temos defeitos, mas o carpinteiro trabalha com nossas qualidades, com nossos pontos valiosos. Assim, não pensemos em nossos pontos fracos, e concentremos-nos em nossos pontos fortes.”.
+        
+        A assembléia entendeu que o martelo era forte, o parafuso unia e dava força, a lixa era especial para limar e afinar as asperezas, e o metro era preciso e exato.
+        
+        Sentiram-se então como uma equipe capaz de produzir móveis de qualidade.
+        
+        Sentiram alegria pela oportunidade de trabalharem juntos. Ocorre o mesmo com seres humanos. Basta observar e comprovar. Quando uma pessoa busca defeitos em outra, a situação torna-se tensa e negativa; ao contrário, quando se busca com sinceridade os pontos fortes dos outros, florescem as melhores conquistas humanas. É fácil encontrar defeitos, qualquer um pode fazê-lo. Mas encontrar qualidades…isto é para os sábios!!!!`,
+        "srcImg": "https://blog.fazedores.com/wp-content/uploads/2014/09/CARPENTERtolls.jpg"
+    }
+
+]

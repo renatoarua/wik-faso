@@ -10,8 +10,17 @@ import { SigninComponent } from './home/signin/signin.component';
 import { LoginGuard } from './core/token/login.guard';
 import { AuthGuard } from './core/token/auth.guard';
 import { FasoComponent } from './telas/faso/faso.component';
+<<<<<<< HEAD
 import { TutoriaisComponent } from './telas/desenvolvimento/tutoriais/tutoriais.component';
 import { TutorialDescricaoComponent } from './telas/desenvolvimento/tutoriais/tutorial-descricao/tutorial-descricao.component';
+=======
+import { HistoriasComponent } from './telas/historias/historias.component';
+import { ApresentacaoHistoriaComponent } from './telas/historias/apresentaçãoHistoria/apresentacaoHistoria.component';
+import { FrasesComponent } from './telas/frases/frases.component';
+import { PilaresComponent } from './telas/pilares/pilares.component';
+import { componentFactoryName } from '@angular/compiler';
+import { MissaoComponent } from './telas/missao/missao.component';
+>>>>>>> b831813f2b0c5d84ca7a46b41017ea2f5bfe9253
 
 
 const routes: Routes = [
@@ -63,6 +72,32 @@ const routes: Routes = [
       {
         path: 'faso',
         component: FasoComponent,
+      },
+      {
+        path: 'historias',
+        component: HistoriasComponent,
+        // children:[
+        //   {
+        //     path:'apresentacaoHistoria',
+        //     component: ApresentacaoHistoriaComponent
+        //   }
+        // ]
+      },
+      {
+        path: 'historias/:parametro',
+        component: ApresentacaoHistoriaComponent
+      },
+      {
+        path: 'frases',
+        component: FrasesComponent
+      },
+      {
+        path: 'pilares',
+        component: PilaresComponent
+      },
+      {
+        path:'missao',
+        component: MissaoComponent
       }
     ]
   }
