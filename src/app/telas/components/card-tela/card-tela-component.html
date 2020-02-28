@@ -1,19 +1,11 @@
 <div class="p-3">
-    <div apDarkenOnHover class="row rounded" [routerLink]="link" style="background:#fff;box-shadow: 4px 4px 5px 1px #6c757d96, 0 2px 10px 0 rgba(0, 0, 0, 0.26); background: #023a55; cursor: pointer;">
+
+    <div apDarkenOnHover class="row rounded" style="background:#fff;box-shadow: 4px 4px 5px 1px #6c757d96, 0 2px 10px 0 rgba(0, 0, 0, 0.26); background: #023a55; cursor: pointer;" [routerLink]="link">
         <div class="col-6 p-3">
             <img class="img-fluid" [src]="srcImg">
         </div>
 
         <div class="col-6 d-flex text-center">
             <h3 class="wf-align-vertical ml-auto" style="color: #eaeaea;">{{ titulo }}</h3>
-        </div>
-        <div apDarkenOnHover class="row rounded" style="background:#fff;box-shadow: 4px 4px 5px 1px #6c757d96, 0 2px 10px 0 rgba(0, 0, 0, 0.26); background: #023a55; cursor: pointer;" [routerLink]="link">
-            <div class="col-6 p-3">
-                <img class="img-fluid" [src]="srcImg">
-            </div>
-
-            <div class="col-6 d-flex text-center">
-                <h3 class="wf-align-vertical ml-auto" style="color: #eaeaea;">{{ titulo }}</h3>
-            </div>
         </div>
     </div>
