@@ -1,0 +1,35 @@
+<wf-container-tela>
+
+    <wf-titulo-tela [titulo]="objTutorial.titulo"></wf-titulo-tela>
+    <div align="right">
+        <h6>
+            <a [href]="objTutorial.arquivos">Baixar Tutorial <img src="https://img.icons8.com/bubbles/50/000000/download.png"> </a>
+        </h6>
+    </div>
+    <hr WIDTH=50%>
+    <br/>
+    <img align="right" width="620" height="400" class="img-fluid" [src]="objTutorial.imagemLink">
+    <h6>
+        <p style="white-space: pre-line;"> {{ objTutorial.txtTutorial }} </p>
+    </h6>
+    <br/>
+    <br/>
+    <br/>
+    <div align="right">
+        <h4> {{ objTutorial.autor }} </h4>
+        <p> {{ objTutorial.dataPostagem }} </p><br/>
+    </div>
+    <br/>
+    <hr>
+    <br/>
+    <div align="center">
+        <h2> Assista esse vídeo sobre o tema: </h2>
+        <iframe width="560" height="315" [src]='objTutorial.linkVideo | safe' frameborder="0" allow="accelerometer; autoplay; encrypted-media;
+         gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <hr>
+        <br/> <strong> {{ objTutorial.referencias }}</strong>
+    </div>
+    <br/>
+
+
+</wf-container-tela>

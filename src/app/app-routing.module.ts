@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { MenuComponent } from './menu/menu.component';
@@ -10,6 +10,8 @@ import { SigninComponent } from './home/signin/signin.component';
 import { LoginGuard } from './core/token/login.guard';
 import { AuthGuard } from './core/token/auth.guard';
 import { FasoComponent } from './telas/faso/faso.component';
+import { TutoriaisComponent } from './telas/desenvolvimento/tutoriais/tutoriais.component';
+import { TutorialDescricaoComponent } from './telas/desenvolvimento/tutoriais/tutorial-descricao/tutorial-descricao.component';
 
 
 const routes: Routes = [
@@ -40,7 +42,19 @@ const routes: Routes = [
       },
       {
         path: 'desenvolvimento',
-        component: DesenvolvimentoComponent,
+        component: DesenvolvimentoComponent,      
+      },
+      {
+        path:'tutoriais',
+
+        component: TutoriaisComponent,
+
+      },
+      {
+        path:'t/:tutorialId',
+
+        component: TutorialDescricaoComponent,
+        
       },
       {
         path: 'motivacional',

@@ -10,6 +10,9 @@ import { TituloTelaModule } from './components/titulo-tela/titulo-tela.module';
 import { FasoComponent } from './faso/faso.component';
 import { CardTelaModule } from './components/card-tela/card-tela.module';
 import { DarkenOnHoverModule } from '../shared/directives/darken-on-hover/darken-on-hover.module';
+import { TutoriaisComponent } from './desenvolvimento/tutoriais/tutoriais.component';
+import { TutorialDescricaoComponent, SafePipe } from './desenvolvimento/tutoriais/tutorial-descricao/tutorial-descricao.component';
+import { RouterModule } from '@angular/router';
 
 
 
@@ -18,14 +21,18 @@ import { DarkenOnHoverModule } from '../shared/directives/darken-on-hover/darken
         DesenvolvimentoComponent,
         InicioComponent,
         MotivacionalComponent,
-        FasoComponent
+        FasoComponent,
+        TutoriaisComponent,
+        TutorialDescricaoComponent,
+        SafePipe
     ],
     imports: [
         CommonModule,
         ContainerTelaModule,
         TituloTelaModule,
         CardTelaModule,
-        DarkenOnHoverModule
+        DarkenOnHoverModule,
+        RouterModule
     ],
     providers: [ 
         

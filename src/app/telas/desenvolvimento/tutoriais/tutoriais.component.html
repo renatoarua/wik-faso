@@ -1,0 +1,12 @@
+<wf-container-tela>
+    <wf-titulo-tela titulo="Tutoriais"></wf-titulo-tela>
+
+    <div *ngFor="let tipo of listaTutoriais">
+        <h4>
+            {{ tipo.titulo }}
+        </h4>
+        <a *ngFor="let tutorial of tipo.tutoriais" [routerLink]="['/t', tutorial.id]">
+            <p>{{ tutorial.titulo }}</p>
+        </a>
+    </div>
+</wf-container-tela>
