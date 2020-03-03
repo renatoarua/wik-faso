@@ -20,11 +20,12 @@ import { componentFactoryName } from '@angular/compiler';
 import { MissaoComponent } from './telas/missao/missao.component';
 
 
+
 const routes: Routes = [
   {
     path: '',
     component: HomeComponent,
-    canActivate: [LoginGuard],
+    // canActivate: [LoginGuard],
     children: [
       {
         path: '',
@@ -35,7 +36,7 @@ const routes: Routes = [
   {
     path: '',
     component: MenuComponent,
-    canActivate: [AuthGuard],
+    // canActivate: [AuthGuard],
     children: [
       {
         path: '',
@@ -66,6 +67,7 @@ const routes: Routes = [
         path: 'motivacional',
         component: MotivacionalComponent,
       },
+     
       {
         path: 'faso',
         component: FasoComponent,

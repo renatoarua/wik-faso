@@ -1,13 +1,15 @@
 <wf-container-tela>
-
+    <div class="col-md-12 col-sm-12 col-xs-12 text-right" style="margin-bottom: 20px;">
+        <button class="btn-primary" (click)="clickBotao()" style="margin-top: 5px; width: 100px; height: 50px; border-radius: 30px; background-color: #023a55; border-color: #023a55;">
+            Voltar
+        </button>
+    </div>
     <wf-titulo-tela [titulo]="objTutorial.titulo"></wf-titulo-tela>
     <div align="right">
         <h6>
             <a [href]="objTutorial.arquivos">Baixar Tutorial <img src="https://img.icons8.com/bubbles/50/000000/download.png"> </a>
         </h6>
     </div>
-    <hr WIDTH=50%>
-    <br/>
     <img align="right" width="620" height="400" class="img-fluid" [src]="objTutorial.imagemLink">
     <h6>
         <p style="white-space: pre-line;"> {{ objTutorial.txtTutorial }} </p>
@@ -19,7 +21,6 @@
         <h4> {{ objTutorial.autor }} </h4>
         <p> {{ objTutorial.dataPostagem }} </p><br/>
     </div>
-    <br/>
     <hr>
     <br/>
     <div align="center">
@@ -30,6 +31,9 @@
         <br/> <strong> {{ objTutorial.referencias }}</strong>
     </div>
     <br/>
-
-
+    <div class="col-md-12 col-sm-12 col-xs-12 text-right" style="margin-bottom: 20px;">
+        <button mat-flat-button class="btn-primary" (click)="clickBotao()" style="margin-top: 5px; width: 100px; height: 50px; border-radius: 30px; background-color: #023a55; border-color: #023a55;">
+            Voltar
+        </button>
+    </div>
 </wf-container-tela>

@@ -9,7 +9,7 @@ import { Usuario } from 'src/app/core/usuario/usuario';
     template: `
     <div class="fixed-top shadow-sm">
         <nav class="navbar navbar-light bg-light">
-
+    
             <a class="navbar-brand" routerLink="/inicio" style="widh: 155px">
                 <img 
                     style="width: 155px !important;"
@@ -17,19 +17,23 @@ import { Usuario } from 'src/app/core/usuario/usuario';
             </a>
 
             <div *ngIf="!isMobile; else btnMenu" 
+            
                 (click)="logout()"
                 style="cursor: pointer;">
                     <i class="fa fa-user-circle mr-1"></i>
                     <a class="mr-1">{{ nome }}</a>
                     <a>(Logout)</a>
             </div> 
+            
 
             <ng-template #btnMenu>
                 <ng-content></ng-content>
             </ng-template>
 
         </nav>
+        
     </div>
+    
     `
 })
 export class HeaderComponent {

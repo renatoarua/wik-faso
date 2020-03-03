@@ -10,11 +10,19 @@ import { Router } from '@angular/router';
 export class HistoriasComponent {
 constructor(
     private router:Router
+    
 ){}
     listaHistoria = HISTORIAS
 
+
     clickCard(id){
+        
 
 this.router.navigate(['historias/'+id])
     }
+        
+    clickBotao() {
+        this.router.navigate([history.go(-1)])
+
+            }
 }

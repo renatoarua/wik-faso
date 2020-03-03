@@ -32,10 +32,12 @@ export class ApresentacaoHistoriaComponent implements OnInit {
 
         // console.log(historias)
     }
+    
 
     BotaoVoltar() {
 this.router.navigate([history.go(-1)])
     }
+
 
 
 } 

@@ -1,12 +1,12 @@
 export const TutorialData = [
    {
        "idTipoTutorial":1,
-       "titulo":"front",
+       "titulo":"FRONT",
        
    },
    {
     "idTipoTutorial":2,
-    "titulo":"back",
+    "titulo":"BACK",
     
 
         

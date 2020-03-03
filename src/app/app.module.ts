@@ -9,9 +9,11 @@ import { HomeModule } from './home/home.module';
 import { HttpClientModule } from '@angular/common/http';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
+   
     
    
   ],

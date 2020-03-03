@@ -2,48 +2,32 @@
     <span (click)="sidenav.toggle()">
         <i class="fas fa-bars fa-2x"></i>
     </span>
+
 </wf-header>
 
 <mat-sidenav-container class="menu-container" style="margin-top: 76px !important;">
     <mat-sidenav #sidenav [mode]="mobileQuery.matches ? 'over' : 'side'" opened disableClose>
 
-        <wf-container-btn-menu> 
-            
-            <wf-btn-menu
-                (click)="mobileQuery.matches && sidenav.toggle()"
-                link="/inicio"
-                name="início"
-                classIcon="fas fa-home">
+        <wf-container-btn-menu>
+
+            <wf-btn-menu (click)="mobileQuery.matches && sidenav.toggle()" link="/inicio" name="Início" classIcon="fas fa-home">
             </wf-btn-menu>
 
-            <wf-btn-menu
-                (click)="mobileQuery.matches && sidenav.toggle()"
-                link="/faso"
-                name="faso"
-                classIcon="fas fa-book">
+            <wf-btn-menu (click)="mobileQuery.matches && sidenav.toggle()" link="/faso" name="Faso" classIcon="fas fa-book">
             </wf-btn-menu>
 
-            <wf-btn-menu
-                (click)="mobileQuery.matches && sidenav.toggle()"
-                link="/desenvolvimento"
-                name="desenvolvimeto"
-                classIcon="fas fa-book">
+            <wf-btn-menu (click)="mobileQuery.matches && sidenav.toggle()" link="/desenvolvimento" name="Desenvolvimento" classIcon="fas fa-book">
             </wf-btn-menu>
 
-            <wf-btn-menu
-                (click)="mobileQuery.matches && sidenav.toggle()"
-                link="/motivacional"
-                name="motivacional"
-                classIcon="fas fa-home">
+            <wf-btn-menu (click)="mobileQuery.matches && sidenav.toggle()" link="/motivacional" name="Motivacional" classIcon="fas fa-home">
             </wf-btn-menu>
-            
+
+
+
         </wf-container-btn-menu>
 
-        <div  
-            *ngIf="mobileQuery.matches"
-            class="p-2 text-center" 
-            (click)="logout()">
-                <small style="color: #eaeaea !important;">logout <i class="fas fa-sign-out-alt"></i></small>
+        <div *ngIf="mobileQuery.matches" class="p-2 text-center" (click)="logout()">
+            <small style="color: #eaeaea !important;">logout <i class="fas fa-sign-out-alt"></i></small>
         </div>
 
     </mat-sidenav>
@@ -53,5 +37,5 @@
         <router-outlet></router-outlet>
 
     </mat-sidenav-content>
-    
+
 </mat-sidenav-container>
